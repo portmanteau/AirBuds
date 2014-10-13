@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0B968919EC7B0B00804C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B968819EC7B0B00804C57 /* main.m */; };
+		FA0B968C19EC7B0B00804C57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B968B19EC7B0B00804C57 /* AppDelegate.m */; };
+		FA0B968F19EC7B0B00804C57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B968E19EC7B0B00804C57 /* ViewController.m */; };
+		FA0B969219EC7B0B00804C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0B969019EC7B0B00804C57 /* Main.storyboard */; };
+		FA0B969419EC7B0B00804C57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0B969319EC7B0B00804C57 /* Images.xcassets */; };
+		FA0B969719EC7B0B00804C57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0B969519EC7B0B00804C57 /* LaunchScreen.xib */; };
+		FA0B96A319EC7B0B00804C57 /* AirBudsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B96A219EC7B0B00804C57 /* AirBudsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0B969D19EC7B0B00804C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0B967B19EC7B0B00804C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0B968219EC7B0B00804C57;
+			remoteInfo = AirBuds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0B968319EC7B0B00804C57 /* AirBuds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirBuds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0B968719EC7B0B00804C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0B968819EC7B0B00804C57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA0B968A19EC7B0B00804C57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA0B968B19EC7B0B00804C57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA0B968D19EC7B0B00804C57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA0B968E19EC7B0B00804C57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA0B969119EC7B0B00804C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA0B969319EC7B0B00804C57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA0B969619EC7B0B00804C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA0B969C19EC7B0B00804C57 /* AirBudsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirBudsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0B96A119EC7B0B00804C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0B96A219EC7B0B00804C57 /* AirBudsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirBudsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0B968019EC7B0B00804C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0B969919EC7B0B00804C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0B967A19EC7B0B00804C57 = {
+			isa = PBXGroup;
+			children = (
+				FA0B968519EC7B0B00804C57 /* AirBuds */,
+				FA0B969F19EC7B0B00804C57 /* AirBudsTests */,
+				FA0B968419EC7B0B00804C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0B968419EC7B0B00804C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B968319EC7B0B00804C57 /* AirBuds.app */,
+				FA0B969C19EC7B0B00804C57 /* AirBudsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0B968519EC7B0B00804C57 /* AirBuds */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B968A19EC7B0B00804C57 /* AppDelegate.h */,
+				FA0B968B19EC7B0B00804C57 /* AppDelegate.m */,
+				FA0B968D19EC7B0B00804C57 /* ViewController.h */,
+				FA0B968E19EC7B0B00804C57 /* ViewController.m */,
+				FA0B969019EC7B0B00804C57 /* Main.storyboard */,
+				FA0B969319EC7B0B00804C57 /* Images.xcassets */,
+				FA0B969519EC7B0B00804C57 /* LaunchScreen.xib */,
+				FA0B968619EC7B0B00804C57 /* Supporting Files */,
+			);
+			path = AirBuds;
+			sourceTree = "<group>";
+		};
+		FA0B968619EC7B0B00804C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B968719EC7B0B00804C57 /* Info.plist */,
+				FA0B968819EC7B0B00804C57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA0B969F19EC7B0B00804C57 /* AirBudsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B96A219EC7B0B00804C57 /* AirBudsTests.m */,
+				FA0B96A019EC7B0B00804C57 /* Supporting Files */,
+			);
+			path = AirBudsTests;
+			sourceTree = "<group>";
+		};
+		FA0B96A019EC7B0B00804C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B96A119EC7B0B00804C57 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0B968219EC7B0B00804C57 /* AirBuds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0B96A619EC7B0B00804C57 /* Build configuration list for PBXNativeTarget "AirBuds" */;
+			buildPhases = (
+				FA0B967F19EC7B0B00804C57 /* Sources */,
+				FA0B968019EC7B0B00804C57 /* Frameworks */,
+				FA0B968119EC7B0B00804C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirBuds;
+			productName = AirBuds;
+			productReference = FA0B968319EC7B0B00804C57 /* AirBuds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0B969B19EC7B0B00804C57 /* AirBudsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0B96A919EC7B0B00804C57 /* Build configuration list for PBXNativeTarget "AirBudsTests" */;
+			buildPhases = (
+				FA0B969819EC7B0B00804C57 /* Sources */,
+				FA0B969919EC7B0B00804C57 /* Frameworks */,
+				FA0B969A19EC7B0B00804C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0B969E19EC7B0B00804C57 /* PBXTargetDependency */,
+			);
+			name = AirBudsTests;
+			productName = AirBudsTests;
+			productReference = FA0B969C19EC7B0B00804C57 /* AirBudsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0B967B19EC7B0B00804C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Portmanteau;
+				TargetAttributes = {
+					FA0B968219EC7B0B00804C57 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FA0B969B19EC7B0B00804C57 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FA0B968219EC7B0B00804C57;
+					};
+				};
+			};
+			buildConfigurationList = FA0B967E19EC7B0B00804C57 /* Build configuration list for PBXProject "AirBuds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0B967A19EC7B0B00804C57;
+			productRefGroup = FA0B968419EC7B0B00804C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0B968219EC7B0B00804C57 /* AirBuds */,
+				FA0B969B19EC7B0B00804C57 /* AirBudsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0B968119EC7B0B00804C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0B969219EC7B0B00804C57 /* Main.storyboard in Resources */,
+				FA0B969719EC7B0B00804C57 /* LaunchScreen.xib in Resources */,
+				FA0B969419EC7B0B00804C57 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0B969A19EC7B0B00804C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0B967F19EC7B0B00804C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0B968F19EC7B0B00804C57 /* ViewController.m in Sources */,
+				FA0B968C19EC7B0B00804C57 /* AppDelegate.m in Sources */,
+				FA0B968919EC7B0B00804C57 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0B969819EC7B0B00804C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0B96A319EC7B0B00804C57 /* AirBudsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0B969E19EC7B0B00804C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0B968219EC7B0B00804C57 /* AirBuds */;
+			targetProxy = FA0B969D19EC7B0B00804C57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA0B969019EC7B0B00804C57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0B969119EC7B0B00804C57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0B969519EC7B0B00804C57 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0B969619EC7B0B00804C57 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA0B96A419EC7B0B00804C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA0B96A519EC7B0B00804C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0B96A719EC7B0B00804C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirBuds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA0B96A819EC7B0B00804C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirBuds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA0B96AA19EC7B0B00804C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AirBudsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirBuds.app/AirBuds";
+			};
+			name = Debug;
+		};
+		FA0B96AB19EC7B0B00804C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AirBudsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirBuds.app/AirBuds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0B967E19EC7B0B00804C57 /* Build configuration list for PBXProject "AirBuds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0B96A419EC7B0B00804C57 /* Debug */,
+				FA0B96A519EC7B0B00804C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0B96A619EC7B0B00804C57 /* Build configuration list for PBXNativeTarget "AirBuds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0B96A719EC7B0B00804C57 /* Debug */,
+				FA0B96A819EC7B0B00804C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0B96A919EC7B0B00804C57 /* Build configuration list for PBXNativeTarget "AirBudsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0B96AA19EC7B0B00804C57 /* Debug */,
+				FA0B96AB19EC7B0B00804C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0B967B19EC7B0B00804C57 /* Project object */;
+}
